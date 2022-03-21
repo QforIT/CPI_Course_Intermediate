@@ -1,2 +1,2 @@
-# CPI_Course_Intermediate
-Files for the Intermediate Course 
+# CPI_Course
+Files for the CPI Course (Intermediate)
