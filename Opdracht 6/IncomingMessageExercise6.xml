@@ -1,0 +1,69 @@
+<sal:MT_SalesOrder_Source xmlns:sal="http://salesorder.sap.com">
+	<OrderID>44567</OrderID>
+	<CustomerName>Ajay</CustomerName>  
+	<SalesOrderNumber>12345</SalesOrderNumber>
+	<Order>
+		<Header>
+			<CreationDate>2015-04-01</CreationDate>
+			<CreatedBy>Ajay </CreatedBy>
+		</Header>
+		<Item>
+			<ItemNumber>100</ItemNumber>
+			<MaterialID>ABC</MaterialID>
+			<MaterialDescription>Test Jeans</MaterialDescription>
+			<Quantity>2</Quantity>
+			<UnitPrice>100</UnitPrice>
+			<Currency>USD</Currency>
+			<ShippingDate>2015-04-08</ShippingDate>
+			<TaxAmount>70</TaxAmount>
+		</Item>
+	</Order>
+	<Order>
+		<Header>
+			<CreationDate>2015-04-01</CreationDate>
+			<CreatedBy>Ajay </CreatedBy>
+		</Header>
+		<Item>
+			<ItemNumber>112</ItemNumber>
+			<MaterialID>ABC</MaterialID>
+			<MaterialDescription>Shirts</MaterialDescription>
+			<Quantity>6</Quantity>
+			<UnitPrice>30</UnitPrice>
+			<Currency>GBP</Currency>
+			<ShippingDate>2015-04-08</ShippingDate>
+			<TaxAmount>43</TaxAmount>
+		</Item>
+	</Order>
+	<Order>
+		<Header>
+			<CreationDate>2015-04-01</CreationDate>
+			<CreatedBy>Ajay </CreatedBy>
+		</Header>
+		<Item>
+			<ItemNumber>74</ItemNumber>
+			<MaterialID>ABC</MaterialID>
+			<MaterialDescription>Test Masks</MaterialDescription>
+			<Quantity>90</Quantity>
+			<UnitPrice>12</UnitPrice>
+			<Currency>AUS</Currency>
+			<ShippingDate>2015-04-08</ShippingDate>
+			<TaxAmount>20</TaxAmount>
+		</Item>
+	</Order>
+	<Order>
+		<Header>
+			<CreationDate>2015-04-01</CreationDate>
+			<CreatedBy>Ajay </CreatedBy>
+		</Header>
+		<Item>
+			<ItemNumber>52</ItemNumber>
+			<MaterialID>ABC</MaterialID>
+			<MaterialDescription>Shoes</MaterialDescription>
+			<Quantity>650</Quantity>
+			<UnitPrice>7</UnitPrice>
+			<Currency>EUR</Currency>
+			<ShippingDate>2015-04-08</ShippingDate>
+			<TaxAmount>155</TaxAmount>
+		</Item>
+	</Order>
+</sal:MT_SalesOrder_Source>

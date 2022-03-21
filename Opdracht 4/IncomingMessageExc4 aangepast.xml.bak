@@ -1,0 +1,47 @@
+<Message1>
+		<sal:MT_SalesOrder_Source>
+			<OrderID>44567</OrderID>
+			<CustomerName>Ajay</CustomerName>
+			<SalesOrderNumber>12345</SalesOrderNumber>
+			<OrderPayment>
+				<Header>
+					<CreationDate>2015-04-01</CreationDate>
+					<CreatedBy>Ajay </CreatedBy>
+				</Header>
+				<Item>
+					<ItemNumber>12</ItemNumber>
+					<MaterialID>ABC</MaterialID>
+					<MaterialDescription>Test</MaterialDescription>
+					<Quantity>2</Quantity>
+					<UnitPrice>100</UnitPrice>
+					<Currency>USD</Currency>
+					<ShippingDate>2015-04-08</ShippingDate>
+					<TaxAmount>20</TaxAmount>
+					<PaymentMethod>Bank transfer</PaymentMethod>
+					<PaymentStatus>done</PaymentStatus>
+					<IBAN>NL21INGB012345678</IBAN>
+					<BankID>0010</BankID>
+				</Item>
+			</Order>
+			<Order>
+				<Header>
+					<CreationDate>2015-04-01</CreationDate>
+					<CreatedBy>Ajay </CreatedBy>
+				</Header>
+				<Item>
+					<ItemNumber>12</ItemNumber>
+					<MaterialID>ABC</MaterialID>
+					<MaterialDescription>Test</MaterialDescription>
+					<Quantity>6</Quantity>
+					<UnitPrice>30</UnitPrice>
+					<Currency>GBP</Currency>
+					<ShippingDate>2015-04-08</ShippingDate>
+					<TaxAmount>20</TaxAmount>
+					<PaymentMethod>Bank transfer</PaymentMethod>
+					<PaymentStatus>open</PaymentStatus>
+					<IBAN>NL21INGB012345678</IBAN>
+					<BankID>0020</BankID>
+				</Item>
+			</Order>
+		</sal:MT_SalesOrder_Source>
+	</Message1>

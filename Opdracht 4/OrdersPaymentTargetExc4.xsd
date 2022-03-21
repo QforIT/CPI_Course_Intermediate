@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://salesorder.sap.com" xmlns="http://salesorder.sap.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="MT_SalesOrderPayment_Target" type="DT_SalesOrderPayment_Target"/>
+	<xsd:complexType name="DT_SalesOrderPayment_Target">
+		<xsd:sequence>
+			<xsd:element name="OrderPayment" minOccurs="0" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="OrderID" type="xsd:string" minOccurs="0"/>
+						<xsd:element name="PaymentMethod" type="xsd:string" minOccurs="0"/>
+						<xsd:element name="PaymentStatus" type="xsd:string" minOccurs="0"/>
+						<xsd:element name="BankID" type="xsd:string" minOccurs="0"/>
+						<xsd:element name="IBAN" type="xsd:string" minOccurs="0"/>
+						<xsd:element name="PaymentCode" type="xsd:string" minOccurs="0"/>
+						<xsd:element name="CompareOrderID" type="xsd:string" minOccurs="0"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

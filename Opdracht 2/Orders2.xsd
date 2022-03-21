@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2018 rel. 2 sp1 (x64) (http://www.altova.com) by  (PostNL) -->
+<xsd:schema xmlns="http://salesorder.sap.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://salesorder.sap.com">
+	<xsd:element name="MT_SalesOrder_Source" type="DT_SalesOrder_Source"/>
+	<xsd:complexType name="DT_SalesOrder_Source">
+		<xsd:sequence>
+			<xsd:element name="OrderID" minOccurs="0" maxOccurs="unbounded">
+			</xsd:element>
+			<xsd:element name="Order" minOccurs="0" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="Header" minOccurs="0">
+							<xsd:complexType>
+								<xsd:sequence>
+									<xsd:element name="SalesOrderNumber" type="xsd:string"/>
+									<xsd:element name="CreationDate" type="xsd:date"/>
+									<xsd:element name="CustomerName" type="xsd:string"/>
+									<xsd:element name="CreatedBy" type="xsd:string"/>
+								</xsd:sequence>
+							</xsd:complexType>
+						</xsd:element>
+						<xsd:element name="Item" maxOccurs="unbounded">
+							<xsd:complexType>
+								<xsd:sequence>
+									<xsd:element name="ItemNumber" type="xsd:string"/>
+									<xsd:element name="MaterialID" type="xsd:string"/>
+									<xsd:element name="MaterialDescription" type="xsd:string"/>
+									<xsd:element name="Quantity" type="xsd:integer"/>
+									<xsd:element name="UnitPrice" type="xsd:decimal"/>
+									<xsd:element name="Currency" type="xsd:string"/>
+									<xsd:element name="ShippingDate" type="xsd:date"/>
+									<xsd:element name="TaxAmount" type="xsd:decimal"/>
+								</xsd:sequence>
+							</xsd:complexType>
+						</xsd:element>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

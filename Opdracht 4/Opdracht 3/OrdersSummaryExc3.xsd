@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="http://salesorder.sap.com" xmlns="http://salesorder.sap.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:element name="MT_SalesOrder_Target" type="DT_SalesOrder_Target"/>
+	<xsd:complexType name="DT_SalesOrder_Target">
+		<xsd:sequence>
+			<xsd:element name="OrderSummary" minOccurs="0" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:sequence>
+						<xsd:element name="OrderID" type="xsd:string" minOccurs="0"/>
+						<xsd:element name="OrderNumber" type="xsd:string" minOccurs="0"/>
+						<xsd:element name="CustomerName" type="xsd:string" minOccurs="0"/>
+						<xsd:element name="OrderAmount" type="xsd:decimal" minOccurs="0"/>
+						<xsd:element name="Currency" type="xsd:string" minOccurs="0"/>
+						<xsd:element name="TaxAmount" type="xsd:decimal" minOccurs="0"/>
+						<xsd:element name="TotalAmount" type="xsd:decimal" minOccurs="0"/>
+						<xsd:element name="TotalAmountCurrency" type="xsd:string" minOccurs="0"/>
+						<xsd:element name="OrderCode" type="xsd:string" minOccurs="0"/>
+					</xsd:sequence>
+				</xsd:complexType>
+			</xsd:element>
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

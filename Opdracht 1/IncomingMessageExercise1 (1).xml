@@ -1,0 +1,21 @@
+<sal:MT_SalesOrder_Source xmlns:sal="http://salesorder.sap.com">
+	<OrderID>44567</OrderID>  
+	<Order>
+		<Header>
+			<SalesOrderNumber>12345</SalesOrderNumber>
+			<CreationDate>2015-04-01</CreationDate>
+			<CustomerName>Ajay</CustomerName>
+			<CreatedBy>Ajay </CreatedBy>
+		</Header>
+		<Item>
+			<ItemNumber>12</ItemNumber>
+			<MaterialID>ABC</MaterialID>
+			<MaterialDescription>Test</MaterialDescription>
+			<Quantity>2</Quantity>
+			<UnitPrice>100</UnitPrice>
+			<Currency>USD</Currency>
+			<ShippingDate>2015-04-08</ShippingDate>
+			<TaxAmount>20</TaxAmount>
+		</Item>
+	</Order>
+</sal:MT_SalesOrder_Source>
